@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
-    margin: 0;
     background-color: #000;
-    color: #eee;
+    color: #0000;
     font-family: Poppins;
     font-size: 12px;
 }
@@ -10,7 +9,7 @@ a{
     text-decoration: none;
 }
 header{
-    width: 1140px;
+    width: 1170px;
     max-width: 80%;
     margin: auto;
     height: 50px;
@@ -20,9 +19,31 @@ header{
     z-index: 100;
 }
 header a{
-    color: #eee;
-    margin-right: 40px;
+    color: #000;
+    margin-right: 0px;
 }
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #6ab577;
+    color: #fff;
+}
+
 /* carousel */
 .carousel{
     height: 100vh;
@@ -56,7 +77,7 @@ header a{
 }
 .carousel .list .item .author{
     font-weight: bold;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 .carousel .list .item .title,
 .carousel .list .item .topic{
@@ -149,6 +170,10 @@ header a{
 .arrows button:hover{
     background-color: #fff;
     color: #000;
+}
+
+.text{
+    color: #fff;
 }
 
 /* animation */
