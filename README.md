@@ -1,6 +1,7 @@
 # 🦁🌍 Animais em Extinção 🐘🔥
 
-![image](https://github.com/thmedu/animais-ext/assets/141462806/b565fe8b-7251-4561-bbd1-463f5987afe5)
+![3](https://github.com/thmedu/animais-ext/assets/141462806/16f7a188-e1a3-4cd4-9198-438a7a5bf0ad)
+
 
 
 
